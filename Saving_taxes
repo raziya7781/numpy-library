@@ -1,0 +1,10 @@
+# Saving Taxes Problem - Python Solution
+
+def main():
+    T = int(input().strip())   # number of test cases
+    for _ in range(T):
+        X, Y = map(int, input().split())
+        print(X - Y)
+
+if __name__ == "__main__":
+    main()
